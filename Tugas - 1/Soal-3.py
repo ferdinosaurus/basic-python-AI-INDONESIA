@@ -12,8 +12,8 @@ print("==============================")
 while tryAgain:
 
     #input case
-    nilai_ujian = Helper.inputFloat("masukkan nilai ujian: ")
-    nilai_praktek = Helper.inputFloat("masukkan nilai praktek: ")
+    nilai_ujian = Helper.inputFloat("masukkan nilai ujian: ",0,100)
+    nilai_praktek = Helper.inputFloat("masukkan nilai praktek: ",0,100)
     
     
     if nilai_ujian>=70 and nilai_praktek>=70:

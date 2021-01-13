@@ -1,4 +1,5 @@
 import Helper
+import sys 
 
 jari_jari = 0
 tryAgain = True
@@ -11,7 +12,7 @@ while tryAgain:
 
     #input case
 
-    jari_jari = Helper.inputFloat("masukkan jari jari :")
+    jari_jari = Helper.inputFloat("masukkan jari jari :",0,sys.float_info.max)
     luas_lingkaran = Helper.luas_lingkaran(jari_jari)
     print("Luas lingkaran dengan jari-jari {} cm adalah {:.2f} cm\u00b2".format(jari_jari,luas_lingkaran))
 

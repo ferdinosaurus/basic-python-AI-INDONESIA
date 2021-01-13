@@ -1,7 +1,17 @@
-def inputInteger(message):
+import math
+
+math.inf
+
+def inputInteger(message,min,max):
   while True:
     try:
-       userInput = int(input(message))       
+      userInput = int(input(message))
+      if userInput<min:
+         print("inputan minimal {}".format(min))
+         continue
+      elif userInput>max:
+         print("inputan maximal {}".format(max))
+         continue
     except ValueError:
        print("inputan harus Integer, coba lagi")
        continue
@@ -9,10 +19,16 @@ def inputInteger(message):
        return userInput 
        break 
 
-def inputFloat(message):
+def inputFloat(message,min,max):
   while True:
     try:
-       userInput = float(input(message))       
+      userInput = float(input(message))
+      if userInput<min:
+         print("inputan minimal {}".format(min))
+         continue
+      elif userInput>max:
+         print("inputan maximal {}".format(max))
+         continue
     except ValueError:
        print("inputan harus Integer/Float, coba lagi")
        continue
@@ -23,7 +39,8 @@ def inputFloat(message):
 def inputYesNo(message):
   while True:
     try:
-       userInput = input(message+"[Y/N] : ")   
+      userInput = input(message+"[Y/N] : ")
+
     except ValueError:
        print("inputan harus angka, coba lagi")
        continue
@@ -39,7 +56,7 @@ def checkYN(value):
         return False
 
 def luas_lingkaran(jari_jari):
-    return 22/7*jari_jari*jari_jari
+    return math.pi*jari_jari**2
 
 def printClosing():
     print("selesai")
