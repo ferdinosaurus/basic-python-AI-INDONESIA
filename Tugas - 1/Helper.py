@@ -1,7 +1,5 @@
 import math
 
-math.inf
-
 def inputInteger(message,min,max):
   while True:
     try:
