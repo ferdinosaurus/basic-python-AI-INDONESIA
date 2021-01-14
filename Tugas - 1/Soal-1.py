@@ -14,7 +14,7 @@ while tryAgain:
     #input case
     nama = str(input("masukkan nama : "))
     umur = Helper.inputInteger("masukkan umur : ",0,100)
-    tinggi = Helper.inputFloat("masukkan tinggi badan : ",100,300)
+    tinggi = Helper.inputFloat("masukkan tinggi badan : ",0,300)
     print("Nama saya {}, umur saya {} tahun dan tinggi saya {} cm.".format(nama,umur,tinggi))
 
     #input try Again
