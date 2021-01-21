@@ -3,9 +3,9 @@ import Helper
 input_menu =0
 
 #data dummy
-daftar_kontak = [{'Nama':'ferdi','Telp':'081234567890'},{'Nama':'kiki','Telp':'081212121212'},{'Nama':'julius','Telp':'081987654321'}]
+#daftar_kontak = [{'Nama':'ferdi','Telp':'081234567890'},{'Nama':'kiki','Telp':'081212121212'},{'Nama':'julius','Telp':'081987654321'}]
 
-#daftar_kontak = [{'Nama':'ferdi','Telp':'081234567890'}]
+daftar_kontak = []
 
 
 def menu_tambah_kontak():
