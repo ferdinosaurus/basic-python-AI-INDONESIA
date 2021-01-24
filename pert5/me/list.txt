@@ -1,0 +1,10 @@
+ini isinya data ke 0 
+ini isinya data ke 1 
+ini isinya data ke 2 
+ini isinya data ke 3 
+ini isinya data ke 4 
+ini isinya data ke 5 
+ini isinya data ke 6 
+ini isinya data ke 7 
+ini isinya data ke 8 
+ini isinya data ke 9 
