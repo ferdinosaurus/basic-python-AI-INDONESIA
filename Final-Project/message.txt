@@ -1,0 +1,5 @@
+ini message txt
+
+test baris1
+test baris 2
+test baris 3
