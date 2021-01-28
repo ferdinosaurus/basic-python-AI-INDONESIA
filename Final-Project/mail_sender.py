@@ -19,7 +19,7 @@ class mail_sender:
 
         plain_part = MIMEText(message_text, 'plain')
         html_part = MIMEText(message_html, 'html')
-        msg.attach("README.md")
+        #msg.attach("README.md")
 
         msg.attach(plain_part)
         msg.attach(html_part)
